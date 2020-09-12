@@ -73,6 +73,6 @@ Prerequisites
 
 Extract all files from the folder “HOME” to /home/
 
-Extract all files from the folder “FABRIC1” to /home/fabric-samples/fabcar/javascript
+Extract and replace all files from the folder “FABRIC1” to /home/fabric-samples/fabcar/javascript
 
-Extract all files from the folder “FABRIC2” to /home/fabric-samples/chaincode/fabcar/javascript/lib
+Extract and replace all files from the folder “FABRIC2” to /home/fabric-samples/chaincode/fabcar/javascript/lib
