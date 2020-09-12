@@ -43,6 +43,9 @@ Prerequisites
 
 	Install Hyperledger Fabric
 		$ curl -sSL https://bit.ly/2ysbOFE | bash -s
+			
+	Navigate to /home/fabric-samples/fabcar/javascript
+		$ npm install
 
 
 ******MultiChain Installation******
