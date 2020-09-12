@@ -76,3 +76,7 @@ Extract all files from the folder “HOME” to /home/
 Extract and replace all files from the folder “FABRIC1” to /home/fabric-samples/fabcar/javascript
 
 Extract and replace all files from the folder “FABRIC2” to /home/fabric-samples/chaincode/fabcar/javascript/lib
+
+
+
+******Commands To Create Stegchains Can Be Found In The StegchainsCommands Text File******
