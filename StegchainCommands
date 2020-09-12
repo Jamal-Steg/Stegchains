@@ -1,0 +1,27 @@
+The first step is to invoke an alternating copying of payload letters, based on the user input. The output is stored in two text files: 
+> node inputSecret.js 
+
+We start up Hyperledger Fabric, using its provided JavaScript environment:
+> cd fabric-samples/fabcar 
+> ./startFabric.sh javascript 
+
+After changing directory to where the JavaScript code resides, we run a JavaScript file in order to automatically enrol an admin, register a user, input data to the Fabric stegchain, display this stegchain, and create a text file with the stegchain data: 
+> cd javascript 
+> node createFabricStegchain.js 
+
+We now require user input for the setup data needed to configure MultiChain, such as port numbers and a stream name: 
+> cd 
+> node inputMultiData.js 
+
+The following JavaScript code automatically sets up MultiChain, generates a stegchain based on the secret previously inputted by the user, and finally creates a text file with the output of this stegchain:
+> node multichainStegchain.js 
+
+This completes the processing of the payload. In order to reveal this again, from both stegchains, we proceed as follows: 
+we run a JavaScript file to create a text file with the first half of the secret payload: 
+> node revealFabricPayload.js 
+
+The next command reveals the second half of the secret payload and inputs it to a text file: 
+> node revealMultichainPayload.js 
+
+Finally, another command combines both text files which results in the revealed the original secret:
+> node retrieveStegchain.js
