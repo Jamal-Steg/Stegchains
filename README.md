@@ -55,6 +55,7 @@ Prerequisites
 
 
 ******Extracting Stegchain Files******
+
 Extract all files from the folder “HOME” to /home/
 
 Extract all files from the folder “FABRIC1” to /home/fabric-samples/fabcar/javascript
