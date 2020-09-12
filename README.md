@@ -53,6 +53,18 @@ Prerequisites
 		$ cd multichain-2.0.7
 		$ mv multichaind multichain-cli multichain-util /usr/local/bin
 
+******Modules Installation******
+	
+	Install line-reader
+		$ npm install line-reader
+		
+	Install expand-tilde
+		$ npm install --save expand-tilde
+		
+	Install log4js
+		$ npm install log4js
+
+
 
 ******Extracting Stegchain Files******
 
