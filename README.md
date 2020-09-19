@@ -49,10 +49,10 @@ Prerequisites
 ******MultiChain Installation******
 
 		$ cd /tmp
-		$ wget https://www.multichain.com/download/multichain-2.0.7.tar.gz
+		$ sudo wget https://www.multichain.com/download/multichain-2.0.7.tar.gz
 		$ tar -xvzf multichain-2.0.7.tar.gz
 		$ cd multichain-2.0.7
-		$ mv multichaind multichain-cli multichain-util /usr/local/bin
+		$ sudo mv multichaind multichain-cli multichain-util /usr/local/bin
 
 ******Modules Installation******
 	
