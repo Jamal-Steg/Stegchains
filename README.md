@@ -32,12 +32,9 @@ Prerequisites
 		$ export PATH=$PATH:$GOPATH/bin
 
 	Install Node.js	
-		$ curl -sL https://deb.nodesource.com/setup_6.x | sudo -E bash -
+		$ curl -sL https://deb.nodesource.com/setup_12.x | sudo -E bash -
 		$ sudo apt-get install -y nodejs
 		
-	Install NPM
-		$ sudo apt install npm
-
 	Install python2.7
 		$ sudo apt-get install python
 
@@ -45,6 +42,7 @@ Prerequisites
 		$ curl -sSL https://bit.ly/2ysbOFE | bash -s
 			
 	Navigate to /home/fabric-samples/fabcar/javascript
+		$ cd fabric-samples/fabcar/javascript
 		$ npm install
 
 
